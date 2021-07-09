@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    font-size: 50px;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.score-board {
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height:200px;
+    margin: 90px auto;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px, 20px;
+    font-family: 'Varela Round', sans-serif;
+    position:relative;
+}
+
+.badge {
+    background: #E3574F;
+    width: 200px;
+    border-radius: 5px;
+    margin: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top:20%;
+    left:-30%;
+}
+
+#computer-label {
+    position: absolute;
+    top:20%;
+    right:-30%;
+}
+
+#user-score {
+    font-size: 150px;
+    position: relative;
+    top:5%;
+}
+#colon {
+    font-size: 150px;
+    position: relative;
+    top:5%;
+}
+#computer-score {
+    font-size: 150px;
+    position: relative;
+    top:5%;
+}
+
+
+.result > p {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    top: 40%;
+    position: relative;
+}
+
+.choices {
+    /* border: 5px solid whitesmoke; */
+    border-radius: 5px;
+    height:800px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.choice {
+    /* border: 5px solid whitesmoke; */
+    display: inline-block;
+    border: 7px solid white;
+    margin: 0px 40px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.3s ease;
+    transform: translateX(120%);
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+#action-message {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;;
+}
+
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
